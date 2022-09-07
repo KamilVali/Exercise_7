@@ -1,0 +1,281 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+        background-color: #fff;
+}
+.navcss{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+}
+/* sol */
+.leftnav{
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+}
+.svgcss{
+    width: 12%;
+    height: 55%;
+    margin: 3%;
+    margin-left: 5%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: none;
+    padding-top: 12%;
+    padding-left: 0%;
+}
+.ulcss{
+    width: 50%;
+}
+ul>li{
+    padding-left: 5%;
+    text-align: center; 
+}
+
+.ulleft{
+    color: black;
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+/* sag */
+.rightnav{
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    margin-left: 30%;
+}
+.lociconcss { 
+    width: 30%;
+    height: 40%;
+    padding-top: 8%;
+    padding-left: 0%;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+}
+
+.icona{
+    color: black;
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding-top: 8%;
+}
+.navrighta{
+    padding-left: 5%;
+    width: 70%;
+    padding-top: 10%;
+}
+.navlefta1{
+    border: 1px solid black; 
+    padding: 7px 16px;
+    border-radius: 50px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-weight: 600;
+    font-size: 14px;
+    color: black;
+    background-color: white;
+}
+.navlefta2{
+    border: 1px solid black; 
+    padding: 7px 16px;
+    border-radius: 50px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+
+}
+/* hoverler */
+.ulleft:hover {
+color: #00754a;
+}
+.lociconcss:hover{
+color: #00754a;
+} 
+.icona:hover {
+    color: #00754a;
+} 
+.navlefta1:hover{
+    background-color: rgba(0,0,0,.06);
+}
+.navlefta2:hover{
+    background-color: rgba(0,0,0,.7);
+    border-color: rgba(0,0,0,.7);
+}
+/* orta hisse */
+main{
+    width: 90%;
+    margin: 2% 5%;
+}
+/* birinci section */
+.secdiv1{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+}
+.sec1img{
+    width: 50%;
+    height: 100%;
+    background-image: url(../IMAGES/img1.jpg);
+    background-size: cover;
+    
+}
+.firsth{
+    width: 50%;
+    height: 450px;
+    color: #1e3932;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-items: center;
+    padding-top: 12%;
+    padding-bottom: 150px;
+    background-color: #d4e9e2;
+}
+.firsth h3 {
+    padding-top: 5%;
+}
+.firstimga{
+    border: 1px solid black; 
+    padding: 7px 16px;
+    border-radius: 50px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+    background-color: none;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    margin-left: 45%;
+    margin-top: 6%;
+}
+/* ikinci section */
+.secdiv2{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    margin-top:2%;
+    color:white;
+}
+.secondh{
+    width: 50%;
+    height: 550px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-items: center;
+    padding-top: 12%;
+    padding-bottom: 150px;
+    background-color:#006241;
+}
+.sec2img{
+    width: 50%;
+    height: 100%;
+    background-image: url(../IMAGES/img2.jpg);
+    background-size: cover;
+    
+}
+.secondimga{
+    border: 1px solid white; 
+    padding: 7px 16px;
+    border-radius: 50px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    background-color: none;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    margin-left: 40%;
+    margin-top: 6%;
+}
+/* ucuncu section */
+.secdiv3{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    margin-top:2%;
+}
+.sec3img{
+    width: 50%;
+    height: 100%;
+    background-image: url(../IMAGES/img3.jpg);
+    background-size: cover;
+}
+.thirdimga{
+    border: 1px solid white; 
+    padding: 7px 16px;
+    border-radius: 50px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    background-color: none;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    margin-left: 40%;
+    margin-top: 6%;
+}
+/* section hover */
+section a:hover{
+    background-color: hsla(0,0%,100%,.12);
+}
+/* son1 */
+footer{
+    margin-top: 2%;
+    box-shadow: -1px 3px rgb(0 0 0 / 10%), 0 -2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+    width: 100%;
+    height: 200px;
+    /* background-color: yellow; */
+}
+.footersec1{
+    width: 80%;
+    height: 100%;
+    margin-left: 5%;
+    display: flex;
+}
+.footclass{
+    width: 20%;
+    height: 100%;
+    color: rgba(0,0,0,.58);
+}
+footer>section>div a{
+    color: rgba(0,0,0,.58);
+    display: block;
+    padding-top: 10%;
+}
+footer a:hover{
+    color: black;
+}
+.lastsection{
+    padding-left: 5%;
+}
+section>a>svg{
+    color: black !important;
+    margin-left: 1%;
+    margin-top: 2%;
+}
